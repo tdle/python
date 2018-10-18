@@ -20,6 +20,7 @@ Hierahcy 1| Dept 1 | JC | h | o | l | 01/01/2018 | 0
 Hierahcy 1| Dept 1 | JC | h | o | l | 08/01/2018 | 2 
 
 I'd like to capture the two dates, '01/01/2018' and 08/01/2018 into a new column called 'Date'.
+
 I then want to place the values '0' and '2' next to the date they were originally assigned to in a new column called 'Value'.
 
 Currently, I have explored, Pandas, and the `.melt()` method. 
