@@ -8,11 +8,14 @@ I am currently working on a task which will help me apply what I've learnt in Py
 
 The task is to take the data.csv file and transform it into a new format. Details shown below...
 
+### Data.csv file
+
 Hierarchy | Dept | Emp | Alpha | Bravo | Charlie | 01/01/2018 | 08/01/2018 |
 ----------|------|-----|-------|-------|---------|------------|------------|
 Hierahcy 1| Dept 1 | JC | h | o | l | 0 | 2
 
 # Desired Output
+### new_data.csv
 
 Hierarchy | Dept | Emp | Alpha | Bravo | Charlie | Date | Value |
 ----------|------|-----|-------|-------|---------|------|-------|
