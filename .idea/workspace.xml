@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52b6ea40-32c2-4591-b952-e77b04aa0286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonChallenge/data_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonChallenge/data_export.py" afterDir="false" />
-    </list>
+    <list default="true" id="52b6ea40-32c2-4591-b952-e77b04aa0286" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
