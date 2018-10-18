@@ -1,16 +1,20 @@
+#import pandas module
 import pandas as pd
 
-#create variable of csv file
+#create dataframe variable of csv file I want to read
+df = pd.read_csv('data.csv')
 
-#read csv file
-df = pd.read_csv('data.csv', sep = ',')
-
+#Perform melt
 pd.melt(df,
-        id_vars = ['Hierarchy', 'Dept', 'Emp ', 'Alpha', 'Bravo', 'Charlie'],
-        value_vars = ['01/01/2018', '08/01/2018'],
-        var_name = 'Date',
-        value_name = 'Value')
+        id_vars=df.columns[:-2],
+        value_vars=df.columns[-2:],
+        var_name='Date',
+        value_name='Value')
 
-df2 = pd.melt(df)
 
-df2.to_csv('new_data.csv')
+
+#print table contents to assert code is working
+
+#write new data to table
+
+#print new table to confirm code is working
